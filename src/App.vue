@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import Button from "primevue/button"
 </script>
 
 <template>
-  <Button>click me!</Button>
+  <main class="container">
+    test
+  </main>
 </template>
 
-<style scoped></style>
+<style lang="scss"" scoped>
+  .container {
+    min-height: 100svh;
+  }
+</style>
